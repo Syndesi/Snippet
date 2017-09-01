@@ -1,2 +1,3 @@
 # Snippet
-Acollection of small snippets
+
+A collection of small snippets.
