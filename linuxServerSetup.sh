@@ -52,6 +52,8 @@ echo "  Passwords are matching"
 # some other programs
   echo "Installing Git..."
   sudo apt-get -y -qq install git
+  echo "Installing Screen..."
+  sudo apt-get -y -qq install screen
 
 echo ""
 echo "Everything is installed"
