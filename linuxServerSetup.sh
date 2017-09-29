@@ -21,6 +21,10 @@ echo "  Passwords are matching"
   echo "Upgrade the System..."
   sudo apt-get -y -qq upgrade
 
+# SSH
+  echo "Installing open-ssh-server"
+  sudo apt-get install openssh-server
+
 # Apache
   echo "Installing Apache..."
   sudo apt-get -y -qq install apache2 libapache2-mod-php7.0
