@@ -5,7 +5,7 @@
 
 while [[ -z "$user" ]]
 do
-  read -p "$(echo -e '  Username: ')" user
+  read -p "$(echo -e '  FTP-Username: ')" user
 done
 while [[ "$mysql_password" != "$mysql_password_2" ]] || [[ -z "$mysql_password" ]]
 do
