@@ -54,6 +54,8 @@ echo "  Passwords are matching"
   sudo apt-get -y -qq install git
   echo "Installing Screen..."
   sudo apt-get -y -qq install screen
+  echo "Installing Unzip..."
+  sudo apt-get -y -qq install unzip
 
 echo ""
 echo "Everything is installed"
