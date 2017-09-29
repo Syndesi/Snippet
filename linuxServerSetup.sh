@@ -16,14 +16,14 @@ echo "  Passwords are matching"
 
 
 # Updating the system
-  echo "Update the System..."
+  echo "Updating the System..."
   sudo apt-get -y -qq update
-  echo "Upgrade the System..."
+  echo "Upgrading the System..."
   sudo apt-get -y -qq upgrade
 
 # SSH
   echo "Installing open-ssh-server"
-  sudo apt-get install openssh-server
+  sudo apt-get -y -qq install openssh-server
 
 # Apache
   echo "Installing Apache..."
