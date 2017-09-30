@@ -13,7 +13,7 @@
 ######################################
 # Customize values for your needs: "User"; "DIR"
 
-USER="teamspeak3"
+USER="ts3"
 DIR="/home/ts3/teamspeak3-server_linux_amd64"
  
 ###### Teamspeak 3 server start/stop script ######
